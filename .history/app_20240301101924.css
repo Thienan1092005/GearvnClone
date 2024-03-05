@@ -1,0 +1,21 @@
+.nav {
+  position: fixed;
+  background-color: red;
+  width: 100%;
+  height: (auto + 10px);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+.nav--banner__content {
+}
+.nav--content {
+}
+.nav--content__logo {
+}
+.nav--content__togglemenu {
+}
+.content--main {
+}
