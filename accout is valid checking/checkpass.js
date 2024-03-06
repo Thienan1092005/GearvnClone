@@ -6,7 +6,7 @@ function getUserInput() {
       "vui long nhap tai khoan va mat khau truoc khi dang nhap xin cam on "
     );
   } else if (userName == "admin" && password == "123") {
-    alert("dang nhpa thanh cong ");
+    alert("dang nhap thanh cong ");
     window.location.href = "./index2.html";
   } else {
     alert("tai khoan hoac mat khau khong dung vui long thu  lai ");
