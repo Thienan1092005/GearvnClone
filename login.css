@@ -1,0 +1,27 @@
+html body {
+  background-image: url("./MEDIA/login.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+.loginbox {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 500px;
+  height: 600px;
+  background-color: white;
+  left: 65%;
+}
+.note {
+  position: relative;
+  top: 400px;
+  left:100px ;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+  width: 1000px;
+  height: auto;
+  font-size: 38px;
+  color: white;
+  font-family: abc;
