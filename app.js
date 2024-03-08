@@ -2,12 +2,15 @@ const navBtn = document.querySelector("#nav--btn");
 const onmenu = document.querySelector("#onmenu");
 const endding = document.querySelector("#flashsale-down");
 const headerBanner = document.querySelector(".header--nav__banner");
+const hover = document.querySelectorAll(".togglemenu--ctn");
+const detal = document.querySelector(".togglectn");
 
 //dem nguoc
 
-let endDay = new Date("06/28/2024 00:00:00").getTime();
+let endDay = new Date("06/28/2025 00:00:00").getTime();
 let check = setInterval(function () {
   let now = new Date().getTime();
+
   let distance = endDay - now;
   let day = Math.floor(distance / (24 * 60 * 60 * 1000));
   let hour = Math.floor((distance % (24 * 60 * 60 * 1000)) / (60 * 60 * 1000));
@@ -21,8 +24,8 @@ let check = setInterval(function () {
     clearInterval(check);
     endding.style.display = "none";
     console.log("het gio roi em yeu");
-  } else if ((endDay.style.display = "none")) {
-    endDay.style.display = "flex";
+  } else if ((endding.style.display = "none")) {
+    endding.style.display = "flex";
   }
 }, 1000);
 //end-----------------------
