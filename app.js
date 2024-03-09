@@ -4,6 +4,8 @@ const endding = document.querySelector("#flashsale-down");
 const headerBanner = document.querySelector(".header--nav__banner");
 const hover = document.querySelectorAll(".togglemenu--ctn");
 const detal = document.querySelector(".togglectn");
+const popup = document.querySelector("#popup");
+const close = document.querySelector("#close ");
 
 //dem nguoc
 
@@ -41,4 +43,10 @@ window.addEventListener("scroll", function () {
   } else {
     headerBanner.style.display = "block";
   }
+});
+setTimeout(function () {
+  popup.style.display = "flex";
+}, 1000);
+close.addEventListener("click", () => {
+  popup.style.display = "none";
 });

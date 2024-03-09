@@ -108,12 +108,11 @@ html body {
 }
 .body--ctn {
   width: 70%;
-  height: 99999px;
+  height: 900px;
   background-color: white;
   margin: 0 auto;
   position: relative;
   top: 140px;
-  overflow: ;
 }
 .frctn {
   position: absolute;
@@ -344,4 +343,33 @@ html body {
   background-color: #f63368;
   overflow: hidden;
   border-radius: 10px;
+}
+#popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 11;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.78);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+}
+#popup img {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#close {
+  position: relative;
+  font-size: 50px;
+  bottom: 300px;
+  left: 480px;
+}
+#close:hover {
+  color: rgb(255, 0, 43);
 }
