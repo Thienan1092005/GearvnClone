@@ -31,7 +31,7 @@ html body {
 
 .note {
   position: relative;
-  top: 400px;
+  top: 200px;
   left: 100px;
   line-height: 40px;
   letter-spacing: 0.5px;
@@ -114,4 +114,68 @@ html body {
   min-width: 100%;
   width: auto;
   height: auto;
+}
+.playasong {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  height: 600px;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  top: 400px;
+  left: 500px;
+  overflow: hidden;
+}
+#plate {
+  width: 300px;
+  height: 300px;
+  border-radius: 100rem;
+  background-color: pink;
+  overflow: hidden;
+  animation: none;
+}
+@keyframes rotateTurntable {
+  from {
+    transform: rotate(0deg); /* Điểm bắt đầu: không xoay */
+  }
+  to {
+    transform: rotate(
+      360deg
+    ); /* Điểm kết thúc: xoay một vòng đầy đủ (360 độ) */
+  }
+}
+#plate img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.navigation---bar {
+  width: 80%;
+  height: 10px;
+  background-color: chocolate;
+  position: relative;
+  bottom: 80px;
+}
+.controler {
+  display: flex;
+  justify-content: space-around;
+  font-size: 50px;
+  position: relative;
+  top: -100px;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #ff00aa;
+}
+.nameasong {
+  position: relative;
+  top: -50px;
+  font-size: 30px;
+  font-family: abc;
+}
+#play {
+  font-size: 80px;
 }

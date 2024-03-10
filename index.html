@@ -6,17 +6,29 @@
     <link rel="stylesheet" href="./font.css" />
     <link rel="stylesheet" href="./rs.css" />
     <link rel="stylesheet" href="./login.css" />
+    <link rel="stylesheet" href="./font.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
 
     <title>login pleas</title>
   </head>
   <body>
     <div class="bgcclip">
-      <video
+      <audio
+        id="song"
+        src="./MEDIA/y2mate.com - tlinh  người điên  OFFICIAL VISUALIZER.mp3"
+      ></audio>
+      <!-- <video
         autoplay
         loop
-        muted
         src="./MEDIA/Anya - Omae Wa Mou [Edit-AMV].mp4"
-      ></video>
+      ></video> -->
       <div class="note">
         <h1>
           Xin chào cậu ! <br />
@@ -40,7 +52,20 @@
         </div>
       </div>
     </div>
-
+    <div class="playasong">
+      <div id="plate">
+        <img src="./MEDIA/af03a-16943241220868-1920.png" alt="" />
+      </div>
+      <div class="nameasong">
+        <h1>Người Điên | Tlink</h1>
+      </div>
+      <div class="navigation---bar"></div>
+      <div class="controler">
+        <ion-icon id="back" name="play-back-circle-outline"></ion-icon>
+        <ion-icon id="play" name="play-circle-outline"></ion-icon>
+        <ion-icon id="next " name="play-forward-circle-outline"></ion-icon>
+      </div>
+    </div>
     <script src="./accout is valid checking/checkpass.js"></script>
   </body>
 </html>
