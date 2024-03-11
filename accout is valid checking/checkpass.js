@@ -2,6 +2,10 @@ function getUserInput() {
   let userName = document.getElementById("userNameInput").value;
   let password = document.getElementById("passwordInput").value;
   let loginDone = false;
+  const play = document.querySelector("#play");
+  const song = document.querySelector("#song");
+  const plate = document.querySelector("#plate");
+  let isPlay = false;
   if (!userName || !password) {
     alert(
       "vui long nhap tai khoan va mat khau truoc khi dang nhap xin cam on "
@@ -14,11 +18,6 @@ function getUserInput() {
     alert("tai khoan hoac mat khau khong dung vui long thu  lai ");
   }
 }
-
-const play = document.querySelector("#play");
-const song = document.querySelector("#song");
-const plate = document.querySelector("#plate");
-let isPlay = false;
 
 play.addEventListener("click", () => {
   if (isPlay == false) {
