@@ -219,7 +219,7 @@ html body {
 .play-repeat {
   font-size: 20px;
 }
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1079px) {
   .note {
     display: none;
   }
@@ -231,5 +231,10 @@ html body {
     position: relative;
     top: 650px;
     left: 300px;
+  }
+  html body {
+    max-width: 412px;
+    height: auto;
+    overflow: hidden;
   }
 }
