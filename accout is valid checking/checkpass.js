@@ -42,7 +42,7 @@ const musics = [
     title: "DaiMinhTinh",
     file: "DaiMinhTinh.mp3",
     image:
-      "https://images.unsplash.com/photo-1616763355548-1b606f439f86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "https://i.pinimg.com/564x/11/3a/4a/113a4af38e8eae9b500457071986782e.jpg",
   },
 ];
 let timer;
