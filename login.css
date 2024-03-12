@@ -219,3 +219,17 @@ html body {
 .play-repeat {
   font-size: 20px;
 }
+@media screen and (max-width: 1080px) {
+  .note {
+    display: none;
+  }
+  .music {
+    position: relative;
+    top: 0px;
+  }
+  .loginbox {
+    position: relative;
+    top: 650px;
+    left: 300px;
+  }
+}
