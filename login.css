@@ -230,19 +230,16 @@ html body {
   }
   .loginbox {
     position: relative;
-    top: 500px;
+    top: 50%; /* Thay đổi giá trị này */
     left: 60px;
-
     width: 300px;
-    height: auto;
-    background-color: none;
-  }
-  html body {
-    max-width: 412px;
-    height: auto;
-    overflow: hidden;
+    height: 400px;
+    transform: translateY(-50%); /* Thêm dòng này */
   }
   .donthave {
     font-size: 18px;
+  }
+  html body {
+    height: 99999px;
   }
 }
