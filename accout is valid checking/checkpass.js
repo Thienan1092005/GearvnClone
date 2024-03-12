@@ -44,6 +44,12 @@ const musics = [
     image:
       "https://i.pinimg.com/564x/11/3a/4a/113a4af38e8eae9b500457071986782e.jpg",
   },
+  {
+    id: 3,
+    title: "Mỗi Khi Em Cười | Long !Lùn",
+    file: "MoiKhiEmCuoi.mp3",
+    import: "https://i.ytimg.com/vi/co7wMDrobIc/0.jpg",
+  },
 ];
 let timer;
 let repeatCount = 0;
