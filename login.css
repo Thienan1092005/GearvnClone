@@ -225,16 +225,24 @@ html body {
   }
   .music {
     position: relative;
-    top: 0px;
+    left: 0px;
+    top: 0;
   }
   .loginbox {
     position: relative;
-    top: 650px;
-    left: 300px;
+    top: 500px;
+    left: 60px;
+
+    width: 300px;
+    height: auto;
+    background-color: none;
   }
   html body {
     max-width: 412px;
     height: auto;
     overflow: hidden;
+  }
+  .donthave {
+    font-size: 18px;
   }
 }
